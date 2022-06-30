@@ -11,7 +11,6 @@ using namespace std;
 
 struct TNode {
     int data;       // field data
-    int key;
     TNode *next;    // field pointer next
     TNode *prev;    // field pointer prev
 };
